@@ -35,7 +35,9 @@ The Module 22 assignment was completed to assess understanding of SparkSQL, PySp
   ![query6](https://github.com/user-attachments/assets/531ba001-bc2e-44b1-987c-9a55d0415583)
 
 ----
-**Uncache the `home_sales` temporary table and verify that the `home_sales` temporary table is uncached using PySpark.**
+
+Uncache the `home_sales` temporary table and verify that the `home_sales` temporary table is uncached using PySpark.
+
 ----
 ## Findings
 After comparing the runtime for all three SparkSQL queries, it seems that after partitioning the data by the field "date_built" made it run significantly faster, decreaisng run time from 1.41 seconds to 0.58 seconds. 
